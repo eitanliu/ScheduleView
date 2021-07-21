@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wittyneko.schedule.widget.ScheduleItem xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/bg_schedule_item_now"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:id="@+id/iv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_schedule_item_now_left" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="3dp"
+        android:ellipsize="end"
+        android:textColor="@color/color_2A2F3C"
+        android:textSize="12sp"
+        tools:text="文本示范1\n文本示范1\n文本示范1文本示范1" />
+
+</com.wittyneko.schedule.widget.ScheduleItem>

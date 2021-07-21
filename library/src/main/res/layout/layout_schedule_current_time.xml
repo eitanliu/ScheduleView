@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wittyneko.schedule.widget.ScheduleCurrentTime xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusable="false"
+    android:focusableInTouchMode="false">
+
+    <TextView
+        android:id="@+id/tv_current_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/color_F55656"
+        android:textSize="12sp"
+        tools:text="13:00"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="48dp"
+        android:src="@drawable/bg_schedule_point_current_time" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/color_F55656" />
+
+</com.wittyneko.schedule.widget.ScheduleCurrentTime>
