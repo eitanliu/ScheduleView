@@ -1,14 +1,16 @@
 
-![效果图.gif](https://upload-images.jianshu.io/upload_images/1845254-6933bd1300558aa8.gif?imageMogr2/auto-orient/strip)  
-钉钉有啥功能就有啥，小米日历和iOS日历也是都一样，懒得录屏图是我盗iOS同事的，这是Android版实现iOS出门右转[仿钉钉日历页面,日视图下的一天日程安排视图](https://www.jianshu.com/p/2f08bf612783)，原理去看iOS的文章，不过最重要排序算法不一样。
+![效果图.gif](resource/schedule_view.jpg)  
+钉钉有啥功能就有啥，小米日历和iOS日历也是都一样，这是Android版实现iOS出门右转[仿钉钉日历页面,日视图下的一天日程安排视图](https://www.jianshu.com/p/2f08bf612783)，原理去看iOS的文章，不过最重要排序算法不一样。
 ## 依赖
-
+[![](https://jitpack.io/v/wittyneko/ScheduleView.svg)](https://jitpack.io/#wittyneko/ScheduleView)  
 一、在项目根目录build.gradle添加repositories，注意是项目根目录的，不是项目的build.gradle  
 
 ```groovy
-	repositories {
-		//其他maven库...
-		maven { url "https://jitpack.io" }
+	allprojects {
+		repositories {
+			//其他maven库...
+			maven { url 'https://jitpack.io' }
+		}
 	}
 ```
 
